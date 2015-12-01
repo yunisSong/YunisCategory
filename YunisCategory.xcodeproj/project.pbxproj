@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		782D2F0A1C0DA9C6008820BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 782D2F091C0DA9C6008820BF /* main.m */; };
+		782D2F0D1C0DA9C6008820BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 782D2F0C1C0DA9C6008820BF /* AppDelegate.m */; };
+		782D2F101C0DA9C6008820BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 782D2F0F1C0DA9C6008820BF /* ViewController.m */; };
+		782D2F131C0DA9C6008820BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782D2F111C0DA9C6008820BF /* Main.storyboard */; };
+		782D2F151C0DA9C6008820BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782D2F141C0DA9C6008820BF /* Assets.xcassets */; };
+		782D2F181C0DA9C6008820BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782D2F161C0DA9C6008820BF /* LaunchScreen.storyboard */; };
+		782D2F211C0DAA0C008820BF /* NSString+YearMonthDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 782D2F201C0DAA0C008820BF /* NSString+YearMonthDay.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		782D2F051C0DA9C6008820BF /* YunisCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YunisCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		782D2F091C0DA9C6008820BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		782D2F0B1C0DA9C6008820BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		782D2F0C1C0DA9C6008820BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		782D2F0E1C0DA9C6008820BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		782D2F0F1C0DA9C6008820BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		782D2F121C0DA9C6008820BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		782D2F141C0DA9C6008820BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		782D2F171C0DA9C6008820BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		782D2F191C0DA9C6008820BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782D2F1F1C0DAA0C008820BF /* NSString+YearMonthDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YearMonthDay.h"; sourceTree = "<group>"; };
+		782D2F201C0DAA0C008820BF /* NSString+YearMonthDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YearMonthDay.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		782D2F021C0DA9C6008820BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		782D2EFC1C0DA9C6008820BF = {
+			isa = PBXGroup;
+			children = (
+				782D2F071C0DA9C6008820BF /* YunisCategory */,
+				782D2F061C0DA9C6008820BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		782D2F061C0DA9C6008820BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				782D2F051C0DA9C6008820BF /* YunisCategory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		782D2F071C0DA9C6008820BF /* YunisCategory */ = {
+			isa = PBXGroup;
+			children = (
+				782D2F0B1C0DA9C6008820BF /* AppDelegate.h */,
+				782D2F0C1C0DA9C6008820BF /* AppDelegate.m */,
+				782D2F0E1C0DA9C6008820BF /* ViewController.h */,
+				782D2F0F1C0DA9C6008820BF /* ViewController.m */,
+				782D2F221C0DAA0F008820BF /* NSString */,
+				782D2F111C0DA9C6008820BF /* Main.storyboard */,
+				782D2F141C0DA9C6008820BF /* Assets.xcassets */,
+				782D2F161C0DA9C6008820BF /* LaunchScreen.storyboard */,
+				782D2F191C0DA9C6008820BF /* Info.plist */,
+				782D2F081C0DA9C6008820BF /* Supporting Files */,
+			);
+			path = YunisCategory;
+			sourceTree = "<group>";
+		};
+		782D2F081C0DA9C6008820BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				782D2F091C0DA9C6008820BF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		782D2F221C0DAA0F008820BF /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				782D2F1F1C0DAA0C008820BF /* NSString+YearMonthDay.h */,
+				782D2F201C0DAA0C008820BF /* NSString+YearMonthDay.m */,
+			);
+			name = NSString;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		782D2F041C0DA9C6008820BF /* YunisCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782D2F1C1C0DA9C6008820BF /* Build configuration list for PBXNativeTarget "YunisCategory" */;
+			buildPhases = (
+				782D2F011C0DA9C6008820BF /* Sources */,
+				782D2F021C0DA9C6008820BF /* Frameworks */,
+				782D2F031C0DA9C6008820BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YunisCategory;
+			productName = YunisCategory;
+			productReference = 782D2F051C0DA9C6008820BF /* YunisCategory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		782D2EFD1C0DA9C6008820BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = yunis;
+				TargetAttributes = {
+					782D2F041C0DA9C6008820BF = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 782D2F001C0DA9C6008820BF /* Build configuration list for PBXProject "YunisCategory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 782D2EFC1C0DA9C6008820BF;
+			productRefGroup = 782D2F061C0DA9C6008820BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				782D2F041C0DA9C6008820BF /* YunisCategory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		782D2F031C0DA9C6008820BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782D2F181C0DA9C6008820BF /* LaunchScreen.storyboard in Resources */,
+				782D2F151C0DA9C6008820BF /* Assets.xcassets in Resources */,
+				782D2F131C0DA9C6008820BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		782D2F011C0DA9C6008820BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782D2F101C0DA9C6008820BF /* ViewController.m in Sources */,
+				782D2F0D1C0DA9C6008820BF /* AppDelegate.m in Sources */,
+				782D2F211C0DAA0C008820BF /* NSString+YearMonthDay.m in Sources */,
+				782D2F0A1C0DA9C6008820BF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		782D2F111C0DA9C6008820BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				782D2F121C0DA9C6008820BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		782D2F161C0DA9C6008820BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				782D2F171C0DA9C6008820BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		782D2F1A1C0DA9C6008820BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		782D2F1B1C0DA9C6008820BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		782D2F1D1C0DA9C6008820BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YunisCategory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunis.YunisCategory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		782D2F1E1C0DA9C6008820BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YunisCategory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunis.YunisCategory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		782D2F001C0DA9C6008820BF /* Build configuration list for PBXProject "YunisCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782D2F1A1C0DA9C6008820BF /* Debug */,
+				782D2F1B1C0DA9C6008820BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		782D2F1C1C0DA9C6008820BF /* Build configuration list for PBXNativeTarget "YunisCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782D2F1D1C0DA9C6008820BF /* Debug */,
+				782D2F1E1C0DA9C6008820BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 782D2EFD1C0DA9C6008820BF /* Project object */;
+}
