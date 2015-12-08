@@ -2,7 +2,7 @@
 //  NSString+YearMonthDay.m
 //  YTX_NEW_CY
 //
-//  Created by 宋尚永 on 15/12/1.
+//  Created by Yunis on 15/12/1.
 //  Copyright © 2015年 yunis. All rights reserved.
 //
 
@@ -33,6 +33,10 @@
 }
 - (NSString *)formattime:(NSString *)str withFormatType:(YunisTimeFormatType)type
 {
+    if (str.length != 14) {
+        NSLog(@"只支持标准的格式类似：20151022112556");
+        return @"";
+    }
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     switch (type) {
         case YunisTimeFormatType_Year: {

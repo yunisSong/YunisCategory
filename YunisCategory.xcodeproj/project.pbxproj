@@ -14,6 +14,10 @@
 		782D2F151C0DA9C6008820BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782D2F141C0DA9C6008820BF /* Assets.xcassets */; };
 		782D2F181C0DA9C6008820BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782D2F161C0DA9C6008820BF /* LaunchScreen.storyboard */; };
 		782D2F211C0DAA0C008820BF /* NSString+YearMonthDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 782D2F201C0DAA0C008820BF /* NSString+YearMonthDay.m */; settings = {ASSET_TAGS = (); }; };
+		78EF1F2C1C1011E6000E08CF /* NSObject+YunisFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EF1F2B1C1011E6000E08CF /* NSObject+YunisFile.m */; settings = {ASSET_TAGS = (); }; };
+		8B2846E91C10274A00A51109 /* YunsiTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2846E71C10274A00A51109 /* YunsiTestViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8B2846EA1C10274A00A51109 /* YunsiTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B2846E81C10274A00A51109 /* YunsiTestViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		8B2846ED1C10276300A51109 /* UIView+YunisFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2846EC1C10276300A51109 /* UIView+YunisFrame.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,13 @@
 		782D2F191C0DA9C6008820BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		782D2F1F1C0DAA0C008820BF /* NSString+YearMonthDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YearMonthDay.h"; sourceTree = "<group>"; };
 		782D2F201C0DAA0C008820BF /* NSString+YearMonthDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YearMonthDay.m"; sourceTree = "<group>"; };
+		78EF1F2A1C1011E6000E08CF /* NSObject+YunisFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YunisFile.h"; sourceTree = "<group>"; };
+		78EF1F2B1C1011E6000E08CF /* NSObject+YunisFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YunisFile.m"; sourceTree = "<group>"; };
+		8B2846E61C10274A00A51109 /* YunsiTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YunsiTestViewController.h; sourceTree = "<group>"; };
+		8B2846E71C10274A00A51109 /* YunsiTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YunsiTestViewController.m; sourceTree = "<group>"; };
+		8B2846E81C10274A00A51109 /* YunsiTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YunsiTestViewController.xib; sourceTree = "<group>"; };
+		8B2846EB1C10276300A51109 /* UIView+YunisFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YunisFrame.h"; sourceTree = "<group>"; };
+		8B2846EC1C10276300A51109 /* UIView+YunisFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YunisFrame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +76,15 @@
 				782D2F0C1C0DA9C6008820BF /* AppDelegate.m */,
 				782D2F0E1C0DA9C6008820BF /* ViewController.h */,
 				782D2F0F1C0DA9C6008820BF /* ViewController.m */,
-				782D2F221C0DAA0F008820BF /* NSString */,
+				8B2846E61C10274A00A51109 /* YunsiTestViewController.h */,
+				8B2846E71C10274A00A51109 /* YunsiTestViewController.m */,
+				8B2846E81C10274A00A51109 /* YunsiTestViewController.xib */,
+				782D2F1F1C0DAA0C008820BF /* NSString+YearMonthDay.h */,
+				782D2F201C0DAA0C008820BF /* NSString+YearMonthDay.m */,
+				78EF1F2A1C1011E6000E08CF /* NSObject+YunisFile.h */,
+				78EF1F2B1C1011E6000E08CF /* NSObject+YunisFile.m */,
+				8B2846EB1C10276300A51109 /* UIView+YunisFrame.h */,
+				8B2846EC1C10276300A51109 /* UIView+YunisFrame.m */,
 				782D2F111C0DA9C6008820BF /* Main.storyboard */,
 				782D2F141C0DA9C6008820BF /* Assets.xcassets */,
 				782D2F161C0DA9C6008820BF /* LaunchScreen.storyboard */,
@@ -81,15 +100,6 @@
 				782D2F091C0DA9C6008820BF /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		782D2F221C0DAA0F008820BF /* NSString */ = {
-			isa = PBXGroup;
-			children = (
-				782D2F1F1C0DAA0C008820BF /* NSString+YearMonthDay.h */,
-				782D2F201C0DAA0C008820BF /* NSString+YearMonthDay.m */,
-			);
-			name = NSString;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +162,7 @@
 				782D2F181C0DA9C6008820BF /* LaunchScreen.storyboard in Resources */,
 				782D2F151C0DA9C6008820BF /* Assets.xcassets in Resources */,
 				782D2F131C0DA9C6008820BF /* Main.storyboard in Resources */,
+				8B2846EA1C10274A00A51109 /* YunsiTestViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,9 +174,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				782D2F101C0DA9C6008820BF /* ViewController.m in Sources */,
+				8B2846E91C10274A00A51109 /* YunsiTestViewController.m in Sources */,
 				782D2F0D1C0DA9C6008820BF /* AppDelegate.m in Sources */,
+				8B2846ED1C10276300A51109 /* UIView+YunisFrame.m in Sources */,
 				782D2F211C0DAA0C008820BF /* NSString+YearMonthDay.m in Sources */,
 				782D2F0A1C0DA9C6008820BF /* main.m in Sources */,
+				78EF1F2C1C1011E6000E08CF /* NSObject+YunisFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +326,7 @@
 				782D2F1E1C0DA9C6008820BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
